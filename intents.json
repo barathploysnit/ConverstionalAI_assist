@@ -1,0 +1,443 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Hey there",
+        "Hi team",
+        "Hello chatbot",
+        "Hey TCS bot"
+      ],
+      "responses": [
+        "Hello! Welcome to TCS Assistant. How can I help you today?",
+        "Hi there! How can I assist you with your TCS-related queries?",
+        "Good day! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I'm leaving",
+        "Have a good day",
+        "Logging off",
+        "Thanks, bye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Don't hesitate to ask if you have more questions.",
+        "Thank you for connecting. Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Is there anything else you need?"
+      ]
+    },
+    {
+      "tag": "hr_contact",
+      "patterns": [
+        "Who is my HR?",
+        "How to contact HR?",
+        "I need HR support",
+        "HR contact number",
+        "HR email",
+        "My HR representative"
+      ],
+      "responses": [
+        "Your HR Business Partner's details are available on the Ultimatix HR portal. Please log in and go to 'My Profile' > 'HR Services' to find their contact information."
+      ]
+    },
+    {
+      "tag": "it_helpdesk",
+      "patterns": [
+        "IT helpdesk number",
+        "My laptop is not working",
+        "Can't login to Ultimatix",
+        "Email is down",
+        "Need IT support",
+        "Report an IT issue"
+      ],
+      "responses": [
+        "You can contact the TCS Global Helpdesk at the 24/7 toll-free number for your region. The number is typically available on the back of your ID card or on the internal IT portal."
+      ]
+    },
+    {
+      "tag": "ultimatix_login_issue",
+      "patterns": [
+        "I forgot my Ultimatix password",
+        "Can't access Ultimatix",
+        "Ultimatix login problem",
+        "Reset Ultimatix password"
+      ],
+      "responses": [
+        "You can reset your Ultimatix password using the 'Forgot Password' link on the login page. If you're still facing issues, please contact the IT Helpdesk for immediate assistance."
+      ]
+    },
+    {
+      "tag": "leave_application",
+      "patterns": [
+        "How to apply for leave?",
+        "Apply for vacation",
+        "Sick leave process",
+        "Where to apply for leave?",
+        "Leave policy"
+      ],
+      "responses": [
+        "You can apply for leave through the Ultimatix portal. Go to 'My Applications' > 'Human Resources' > 'Leave Management'. Please check the TCS leave policy on the HR portal for eligibility and procedures."
+      ]
+    },
+    {
+      "tag": "pay_slip",
+      "patterns": [
+        "Where is my payslip?",
+        "How to download salary slip?",
+        "I need my pay advice",
+        "Access my salary slip"
+      ],
+      "responses": [
+        "Your monthly payslip is available for download on the Ultimatix portal. Navigate to 'My Profile' > 'Compensation' > 'View Pay Advice'."
+      ]
+    },
+    {
+      "tag": "tax_declaration",
+      "patterns": [
+        "How to submit tax declaration?",
+        "Investment proof submission",
+        "Tax saving documents",
+        "Deadline for tax submission"
+      ],
+      "responses": [
+        "Tax declarations are submitted through the Ultimatix portal. Go to 'My Applications' > 'Human Resources' > 'Income Tax Declaration'. Please be mindful of the financial year deadline announced by HR."
+      ]
+    },
+    {
+      "tag": "expense_reimbursement",
+      "patterns": [
+        "How to claim expenses?",
+        "Travel reimbursement process",
+        "Submit an expense report",
+        "Get reimbursed for travel"
+      ],
+      "responses": [
+        "Expense reimbursements are processed through the designated system on Ultimatix (often 'My Finance' or 'Expense Management'). Please submit your bills and details as per the TCS travel and expense policy."
+      ]
+    },
+    {
+      "tag": "transport_facility",
+      "patterns": [
+        "Transport query",
+        "Cab facility",
+        "Change my cab route",
+        "Who is my transport manager?",
+        "Cab not arrived"
+      ],
+      "responses": [
+        "For transport-related queries, including route changes and issues, please contact your facility's Transport Coordinator or use the transport management system link available on your unit's portal."
+      ]
+    },
+    {
+      "tag": "identity_card",
+      "patterns": [
+        "Lost my ID card",
+        "New access card",
+        "ID card not working",
+        "How to get a new ID?",
+        "Card damaged"
+      ],
+      "responses": [
+        "Please report a lost, stolen, or damaged ID card to your local admin and security desk immediately. They will guide you through the process for a replacement."
+      ]
+    },
+    {
+      "tag": "timesheet_submission",
+      "patterns": [
+        "How to fill timesheet?",
+        "Timesheet not submitted",
+        "Where is the timesheet app?",
+        "Deadline for timesheet"
+      ],
+      "responses": [
+        "Timesheets are mandatory and must be filled weekly in the Timesheet Application on Ultimatix. Please ensure you submit it before the weekly deadline to avoid delays in processing."
+      ]
+    },
+    {
+      "tag": "project_tools_access",
+      "patterns": [
+        "Need access to Jira",
+        "Request Confluence access",
+        "Get VPN access",
+        "My project tool login not working"
+      ],
+      "responses": [
+        "Access to project-specific tools like Jira, Confluence, or VPN is usually requested by your Project Manager or team lead. Please raise a request through them or via the IT portal's access request form."
+      ]
+    },
+    {
+      "tag": "learning_portal",
+      "patterns": [
+        "What is the learning portal?",
+        "How to access online courses?",
+        "TCS iEvolve",
+        "Find learning materials",
+        "Mandatory trainings"
+      ],
+      "responses": [
+        "TCS iEvolve is our integrated learning management system. You can access it through Ultimatix. It hosts a vast library of courses, including mandatory, technology-specific, and soft skills trainings."
+      ]
+    },
+    {
+      "tag": "career_growth",
+      "patterns": [
+        "How does promotion work?",
+        "Career growth path",
+        "When is the next promotion cycle?",
+        "What is the process for a role change?"
+      ],
+      "responses": [
+        "Career growth at TCS is based on the Performance Management system. Discussions typically happen during annual appraisals. For detailed guidance on career paths, please connect with your HR Business Partner or Manager."
+      ]
+    },
+    {
+      "tag": "insurance_policy",
+      "patterns": [
+        "What is the health insurance policy?",
+        "Mediclaim details",
+        "How to claim insurance?",
+        "Family insurance coverage"
+      ],
+      "responses": [
+        "Details of the Group Mediclaim Policy for you and your dependents are available on the Ultimatix HR portal. You can find sum insured, network hospitals, and the claim process there."
+      ]
+    },
+    {
+      "tag": "probation_period",
+      "patterns": [
+        "What is my probation period?",
+        "When will my probation end?",
+        "Confirmation process after probation"
+      ],
+      "responses": [
+        "The standard probation period and confirmation process are outlined in your offer letter. For specifics regarding your confirmation, please check with your HR Business Partner or Manager."
+      ]
+    },
+    {
+      "tag": "resignation_process",
+      "patterns": [
+        "How to resign?",
+        "What is the notice period?",
+        "Resignation policy",
+        "Exit formalities"
+      ],
+      "responses": [
+        "The resignation process is initiated through your manager and HR. Please refer to the HR portal for the official policy on notice period and the detailed steps for exit formalities."
+      ]
+    },
+    {
+      "tag": "work_from_home",
+      "patterns": [
+        "What is the WFH policy?",
+        "Apply to work from home",
+        "Hybrid work model",
+        "WFH guidelines"
+      ],
+      "responses": [
+        "The work-from-home policy is project and unit-specific. Please discuss this directly with your Project Manager to understand the guidelines and get necessary approvals for your project."
+      ]
+    },
+    {
+      "tag": "dress_code",
+      "patterns": [
+        "What is the dress code?",
+        "Can I wear casuals?",
+        "Formal dress policy"
+      ],
+      "responses": [
+        "TCS generally follows a business casual dress code. However, specific client-facing or facility-related requirements may apply. Please check with your manager for your project's specific guidelines."
+      ]
+    },
+    {
+      "tag": "new_joiner",
+      "patterns": [
+        "I am a new joiner",
+        "First day at TCS",
+        "Onboarding process",
+        "Where to go on day one?"
+      ],
+      "responses": [
+        "Welcome to TCS! Your onboarding details, including your reporting location, time, and point of contact, are provided in your welcome email. Please refer to that for Day 1 instructions."
+      ]
+    },
+    {
+      "tag": "ethics_point",
+      "patterns": [
+        "How to report an ethical concern?",
+        "What is EthicsPoint?",
+        "Raise a concern anonymously",
+        "Whistleblower policy"
+      ],
+      "responses": [
+        "EthicsPoint is a confidential and anonymous reporting tool for ethical concerns. You can access it via the link on the Ultimatix homepage under 'Quick Links' or 'Policies'."
+      ]
+    },
+    {
+      "tag": "it_policy",
+      "patterns": [
+        "IT usage policy",
+        "Can I install software?",
+        "Personal device usage",
+        "Data security policy"
+      ],
+      "responses": [
+        "All IT policies, including acceptable use, data security, and BYOD, are available on the IT portal. Please ensure you read and comply with them to protect company data."
+      ]
+    },
+    {
+      "tag": "innovation_initiative",
+      "patterns": [
+        "What is TCS Innovation?",
+        "How to participate in an ideathon?",
+        "Submit an idea",
+        "Research and development"
+      ],
+      "responses": [
+        "TCS encourages innovation through programs like Innovation Forums and ideathons. Keep an eye on internal communications and the Innovation portal on Ultimatix for upcoming events and idea submission windows."
+      ]
+    },
+    {
+      "tag": "emergency_contact",
+      "patterns": [
+        "Emergency number",
+        "Medical emergency",
+        "Security emergency",
+        "Urgent help"
+      ],
+      "responses": [
+        "For any emergency within a TCS office, please contact Security immediately. The local emergency numbers are prominently displayed on notice boards and at help desks. For personal emergencies, please use your local emergency services number."
+      ]
+    },
+    {
+      "tag": "what_is_ultimatix",
+      "patterns": [
+        "What is Ultimatix?",
+        "Explain Ultimatix",
+        "What is the TCS employee portal?"
+      ],
+      "responses": [
+        "Ultimatix is the integrated enterprise platform for TCS employees. It is your one-stop portal for HR services, project management, learning, timesheets, and accessing all internal applications and information."
+      ]
+    },
+    {
+      "tag": "what_is_ignio",
+      "patterns": [
+        "What is Ignio?",
+        "Tell me about Ignio AI",
+        "TCS Ignio product"
+      ],
+      "responses": [
+        "Ignio™ is TCS's award-winning cognitive automation product. It is an AI-powered software that helps enterprises automate and optimize their IT and business operations. You can learn more on the internal Ignio portal."
+      ]
+    },
+    {
+      "tag": "tcs_ces",
+      "patterns": [
+        "What is TCS CES?",
+        "What does Cloud Enterprise Solutions do?",
+        "CES unit"
+      ],
+      "responses": [
+        "Cloud Enterprise Solutions (CES) is a strategic unit within TCS focused on delivering cloud-powered transformation and consulting services to help businesses become more agile and innovative."
+      ]
+    },
+    {
+      "tag": "tcs_banks",
+      "patterns": [
+        "What is TCS BANKS?",
+        "TCS banking products",
+        "BFSI platform"
+      ],
+      "responses": [
+        "TCS BANKS is a comprehensive suite of products and solutions tailored for the Banking and Financial Services Industry (BFSI), helping clients modernize their core banking systems and operations."
+      ]
+    },
+    {
+      "tag": "mobile_apps",
+      "patterns": [
+        "Is there a TCS mobile app?",
+        "Ultimatix mobile app",
+        "Check email on phone"
+      ],
+      "responses": [
+        "Yes, TCS provides secure mobile apps for accessing Ultimatix, your TCS email, and other services. You can find the download links and setup instructions on the IT portal."
+      ]
+    },
+    {
+      "tag": "client_interview",
+      "patterns": [
+        "How to prepare for a client interview?",
+        "Client interview process",
+        "Tips for client round"
+      ],
+      "responses": [
+        "Prepare for a client interview by thoroughly understanding the project requirements, your skillset, and the client's business. Utilize learning materials on iEvolve and practice mock interviews with your team or manager."
+      ]
+    },
+    {
+      "tag": "promotion_cycle",
+      "patterns": [
+        "When are promotions?",
+        "Annual appraisal cycle",
+        "When will I be promoted?"
+      ],
+      "responses": [
+        "The annual performance appraisal and promotion cycle is typically announced by HR towards the end of the financial year. Please wait for official communication or discuss your growth with your manager."
+      ]
+    },
+    {
+      "tag": "salary_query",
+      "patterns": [
+        "When is salary credited?",
+        "Salary date",
+        "Salary not received"
+      ],
+      "responses": [
+        "Salaries are typically credited on the last working day of the month. If you haven't received yours, please first check with your bank. If the issue persists, contact the HR helpdesk through Ultimatix."
+      ]
+    },
+    {
+      "tag": "referral_program",
+      "patterns": [
+        "How to refer a friend?",
+        "Employee referral program",
+        "Referral bonus"
+      ],
+      "responses": [
+        "You can refer friends through the 'Refer a Friend' portal on Ultimatix. The process, eligible positions, and referral bonus details are all available there."
+      ]
+    },
+    {
+      "tag": "no_response",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you please rephrase your question?",
+        "I'm still learning. Could you try asking that in a different way?",
+        "My apologies, I don't have an answer for that yet. Please contact the relevant helpdesk (IT/HR) for immediate support."
+      ]
+    }
+  ]
+}
